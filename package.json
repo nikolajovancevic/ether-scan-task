@@ -1,0 +1,21 @@
+{
+  "name": "ether-scan-task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "npx cucumber-js test",
+    "regression": "npx cucumber-js --tags @regression",
+    "wip": "npx cucumber-js --tags @wip"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@cucumber/cucumber": "11.1.1",
+    "@playwright/test": "1.49.1",
+    "@types/node": "22.10.2",
+    "ts-node": "10.9.2"
+  }
+}
