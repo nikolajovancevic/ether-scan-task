@@ -6,6 +6,8 @@ Feature: Sign up
   I should be able to sign up
   So I get access to all features on the app
 
+  Reqired fields are username, email, confirm email, password, confirm password, terms
+
   Scenario: Register as a user
     Given I enter username
     And I enter email
