@@ -1,5 +1,5 @@
 
-@regression @wip
+@regression
 Feature: Sign up username field validations
 
   As I user

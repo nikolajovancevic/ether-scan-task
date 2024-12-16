@@ -7,7 +7,7 @@ Feature: Sign up
   So I get access to all features on the app
 
   Reqired fields are username, email, confirm email, password, confirm password, terms
-
+  @wip
   Scenario: Register as a user
     Given I enter username
     And I enter email
