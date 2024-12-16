@@ -1,5 +1,5 @@
 
-@regression @wip
+@regression
 Feature: Sign up
 
   As I user

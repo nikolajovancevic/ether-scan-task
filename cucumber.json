@@ -1,10 +1,11 @@
 {
   "default": {
-    "paths": ["src/features/*.feature"],
+    "paths": ["src/features/**/*.feature"],
     "require": ["src/steps/*.steps.ts"],
 
-    "format": ["html:cucumber-report.html"],
+    "format": ["progress"],
     "requireModule": ["ts-node/register"],
+    
     "formatOptions": {
       "snippetInterface": "async-await"
     }

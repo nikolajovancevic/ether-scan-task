@@ -27,7 +27,7 @@ Given("I enter any special char returns error", async function () {
   for (let i=0; i<specialCharacters.length; i++) {
     await page.locator('#ContentPlaceHolder1_txtUserName').fill(`asdf${specialCharacters[i]}`)
     // click on another field to trigger the error
-    await page.locator('#ContentPlaceHolder1_txtEmail').click()
+    // await page.locator('#ContentPlaceHolder1_txtEmail').click()
     // assert error
     await expect(page.locator('#ContentPlaceHolder1_txtUserName-error')).toHaveText('Only alphanumeric characters allowed.')
     // clear field input

@@ -4,14 +4,16 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "test": "npx cucumber-js test",
+    "features:usage": "cucumber-js --format usage --dry-run",
+    "features:undefined": "cucumber-js --format snippets --dry-run",
+    "dry-run": "cucumber-js --dry-run",
     "regression": "npx cucumber-js --tags @regression",
     "wip": "npx cucumber-js --tags @wip"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["Playwright", "Cucumber", "Typescript"],
+  "author": "Aleksa Puzic",
   "license": "ISC",
-  "description": "",
+  "description": "Automation framework utilizing Playwright & Cucumber with Typescript",
   "devDependencies": {
     "@cucumber/cucumber": "11.1.1",
     "@playwright/test": "1.49.1",
