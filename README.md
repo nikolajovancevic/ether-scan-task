@@ -43,7 +43,7 @@ By default, tests will run in `HEADFULL` mode.
 
 In `After` hook in `utils/hooks.ts`, there is a method that will take the screenshot in case test fails and save it in `report/` folder. 
 
-Since [Etherscan website](https://etherscan.io/register) is a PROD environment, due to CAPTCHA, running test in `HEADLESS` mode will not work at all. I've left screenshot of my try inside `report/headless-failed.png`.
+Since [Etherscan website](https://etherscan.io/register) is a PROD environment, due to CAPTCHA, running test in `HEADLESS` mode will not work at all. I've left screenshot of my try inside `report/failed-test.png`.
 
 To run in `HEADLESS` mode, navigate to `utils/hooks.ts` file and change `headless` variable to `true`.
 ```
